@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    tools:ignore="InvalidNavigation">
+
+    <fragment
+        android:id="@+id/homeFlowFragment"
+        android:name="com.example.kitsyapihilt.presentation.ui.fragments.home.HomeFlowFragment"
+        android:label="fragment_home_flow"
+        tools:layout="@layout/fragment_home_flow" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/singInFlowFragment"
+        android:name="com.example.kitsyapihilt.presentation.ui.fragments.singin.SingInFlowFragment"
+        android:label="fragment_sing_in_flow"
+        tools:layout="@layout/fragment_sing_in_flow" >
+        <action
+            android:id="@+id/action_singInFlowFragment_to_homeFlowFragment2"
+            app:destination="@id/homeFlowFragment" />
+    </fragment>
+
+    <action android:id="@+id/action_global_singInFlowFragment"
+        app:destination="@id/singInFlowFragment"
+        app:popUpTo="@id/nav_graph" />
+
+    <action android:id="@+id/action_global_homeFlowFragment"
+        app:destination="@id/homeFlowFragment"
+        app:popUpTo="@id/nav_graph" />
+
+</navigation>

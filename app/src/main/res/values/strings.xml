@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">KitsyApiHilt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categories">Categories</string>
+    <string name="reset">Reset</string>
+    <string name="apply">Apply</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Input Email</string>
+    <string name="enter_password">Input Password</string>
+    <string name="success">Success</string>
+    <string name="on_board_1">More of what you Love</string>
+    <string name="on_board_1_title">Get recommendation to discover your next favorite anime or manga!</string>
+    <string name="on_board_2">TRACK YOUR PROGRESS</string>
+    <string name="on_board_2_title">Log and rate what you\'ve seen and read to build a library of your history.</string>
+    <string name="on_board_3">JOIN THE COMMUNITY</string>
+    <string name="on_board_3_title">Kitsu makes finding new like-minded friends easy with global activity feed.</string>
+    <string name="password">Password</string>
+    <string name="vhod">Вход</string>
+    <string name="skip">Skip</string>
+    <string name="proceed">Proceed</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_post">Create Post</string>
+    <string name="post">Post</string>
+    <string name="write_something">Write something...</string>
+    <string name="spoiler">Spoiler</string>
+    <string name="nsfw">NSFW</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="input_text">Input text</string>
+    <string name="_10_minutes_ago">10 minutes ago</string>
+    <string name="edited_10_minutes_ago">Edited 10 minutes ago</string>
+    <string name="this_post_contains_spoilers">This post contains spoilers</string>
+    <string name="o_o">(o_o)</string>
+    <string name="nurs">Nurs</string>
+
+    <style name="TabLayoutTextStyle">
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
+
